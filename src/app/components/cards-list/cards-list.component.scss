@@ -12,3 +12,13 @@
 .card-list li {
   list-style: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .card-list {
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+
+    padding: 24px;
+  }
+}
